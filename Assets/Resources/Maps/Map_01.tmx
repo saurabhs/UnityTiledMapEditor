@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="8" height="8" tilewidth="96" tileheight="96" nextobjectid="1">
+ <properties>
+  <property name="EndIndex" value="0,0"/>
+  <property name="Enemy_01" value="5"/>
+  <property name="Enemy_02" value="3"/>
+  <property name="Enemy_03" value="1"/>
+  <property name="PlayerSpawn" value="6,5"/>
+  <property name="StartIndex" value="2,7"/>
+  <property name="Time" value="120"/>
+  <property name="WaveCount" type="int" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="_towerDefense_" tilewidth="96" tileheight="96" tilecount="120" columns="15">
+  <image source="../../../ArtReference/MapRef.png" width="1440" height="769"/>
+ </tileset>
+ <tileset firstgid="121" name="TilesetsLegends" tilewidth="96" tileheight="96" tilecount="4" columns="2">
+  <image source="../../../ArtReference/MapEditorLegends.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="125" name="Map4" tilewidth="96" tileheight="95" tilecount="120" columns="15">
+  <image source="../../../ArtReference/MapRef2.png" width="1440" height="767"/>
+ </tileset>
+ <layer name="Map" width="8" height="8">
+  <data encoding="csv">
+89,88,88,88,88,88,89,88,
+89,88,88,88,88,88,89,88,
+96,90,90,90,102,88,96,102,
+88,88,88,88,89,88,101,95,
+88,88,88,88,89,88,89,88,
+101,90,83,90,95,88,89,88,
+89,88,88,88,88,88,89,88,
+96,90,83,90,90,90,95,88
+</data>
+ </layer>
+ <layer name="Legends" width="8" height="8" opacity="0.48">
+  <data encoding="csv">
+123,0,0,0,0,0,122,0,
+0,0,0,0,0,0,0,0,
+0,0,0,121,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
